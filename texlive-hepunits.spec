@@ -1,3 +1,9 @@
+# revision 15878
+# category Package
+# catalog-ctan /macros/latex/contrib/hepunits
+# catalog-date 2009-09-19 12:08:16 +0200
+# catalog-license lppl
+# catalog-version 1.1.1
 Name:		texlive-hepunits
 Version:	1.1.1
 Release:	1
@@ -43,6 +49,7 @@ on.
 %doc %{_texmfdistdir}/doc/latex/hepunits/README
 %doc %{_texmfdistdir}/doc/latex/hepunits/hepunits.pdf
 %doc %{_texmfdistdir}/doc/latex/hepunits/hepunits.tex
+%doc %{_tlpkgobjdir}/*.tlpobj
 
 #-----------------------------------------------------------------------
 %prep
@@ -53,3 +60,5 @@ on.
 %install
 mkdir -p %{buildroot}%{_texmfdistdir}
 cp -fpar tex doc %{buildroot}%{_texmfdistdir}
+mkdir -p %{buildroot}%{_tlpkgobjdir}
+cp -fpa tlpkg/tlpobj/*.tlpobj %{buildroot}%{_tlpkgobjdir}
