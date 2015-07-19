@@ -6,7 +6,7 @@
 # catalog-version 1.1.1
 Name:		texlive-hepunits
 Version:	1.1.1
-Release:	9
+Release:	10
 Summary:	A set of units useful in high energy physics applications
 Group:		Publishing
 URL:		http://www.ctan.org/tex-archive/macros/latex/contrib/hepunits
