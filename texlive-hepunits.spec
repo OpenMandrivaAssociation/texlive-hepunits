@@ -3,7 +3,7 @@ Version:	54758
 Release:	2
 Summary:	A set of units useful in high energy physics applications
 Group:		Publishing
-URL:		http://www.ctan.org/tex-archive/macros/latex/contrib/hepunits
+URL:		https://www.ctan.org/tex-archive/macros/latex/contrib/hepunits
 License:	LPPL
 Source0:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/hepunits.r%{version}.tar.xz
 Source1:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/hepunits.doc.r%{version}.tar.xz
